@@ -4,7 +4,7 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
   <nav
     class="fixed top-0 inset-x-0 z-50 bg-gray-800/60 backdrop-blur after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
-     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -42,7 +42,7 @@
       </div>
     </div>
   </nav>
- 
+
 
 
   <section class="relative w-full mx-auto overflow-hidden pt-15">
@@ -81,7 +81,8 @@
     <!-- กล่องข้อความอยู่ตรงกลางภาพ -->
     <div class="absolute inset-0 flex flex-col items-end justify-center p-6 text-black text-right container mx-auto">
       <h1 class="text-sm font-medium md:text-base lg:text-2xl xl:text-4xl">อาหารและสุขภาพ</h1>
-      <p class="text-[8px] leading-relaxed max-w-[250px] md:max-w-[400px] md:text-xs lg:text-base lg:max-w-[650px] xl:text-xl xl:max-w-[1100px]">
+      <p
+        class="text-[8px] leading-relaxed max-w-[250px] md:max-w-[400px] md:text-xs lg:text-base lg:max-w-[650px] xl:text-xl xl:max-w-[1100px]">
         โปรตีนเซริซินจากไหม เมื่อนำมาใช้เป็นส่วนผสมอาหาร จะมีสารที่ควบคุมคอเลสเตอรอลในหลอดเลือด สลายแอลกอฮอล์ในร่างกาย
         ช่วยความจำ และกระตุ้นการทำงานของหัวใจ อาหารที่มีโปรตีนเซริซินเป็นส่วนประกอบ เช่น ไส้กรอก มีลักษณะนุ่มละมุน
         สีสดเหมือนเพิ่งทำใหม่ๆ ไอศกรีมจะทำให้ไม่ละลายง่ายและเนียน ส่วนเส้นก๋วยเตี๋ยวจะทำให้เหนียวนุ่ม</p>
@@ -92,7 +93,8 @@
     <!-- กล่องข้อความอยู่ตรงกลางภาพ -->
     <div class="absolute inset-0 flex flex-col justify-center text-gray-900 p-6 container mx-auto">
       <h1 class="text-sm font-medium md:text-base lg:text-2xl xl:text-4xl">สารสกัดผงโปรตีนไหมเซริซิน</h1>
-      <p class="text-[8px] leading-relaxed max-w-[220px] md:max-w-[400px] md:text-xs lg:text-base lg:max-w-[650px] xl:text-xl xl:max-w-[1100px]">
+      <p
+        class="text-[8px] leading-relaxed max-w-[220px] md:max-w-[400px] md:text-xs lg:text-base lg:max-w-[650px] xl:text-xl xl:max-w-[1100px]">
         สารสกัดผงโปรตีนไหมเซริซินได้จากรังไหมสีทองธรรมชาติ ใช้สำหรับเป็นส่วนผสมสำหรับการผลิตเครื่องสำอาง
         ผลิตภัณฑ์ดูแลผิว ผลิตภัณฑ์ทางการแพทย์ ทรีทเมนต์โดยตรง และสปา ฯลฯ
 
@@ -102,9 +104,10 @@
         เพื่อให้ดักแด้ไหมกลายเป็นผีเสื้อตามวงจรชีวิตของแมลง </p>
     </div>
   </section>
-  <section class="flex flex-col items-center p-5 container mx-auto" id="section4"> 
+  <section class="flex flex-col items-center p-5 container mx-auto" id="section4">
     <h2 class="text-sm font-medium md:text-base lg:text-2xl xl:text-4xl">เราคือใคร</h2>
-    <p class="text-[8px] text-center max-w-[600px] md:text-xs lg:text-base lg:max-w-[850px] xl:text-xl xl:max-w-[1100px]">
+    <p
+      class="text-[8px] text-center max-w-[600px] md:text-xs lg:text-base lg:max-w-[850px] xl:text-xl xl:max-w-[1100px]">
       เรามุ่งมั่นที่จะจัดหาวัตถุดิบจากธรรมชาติสำหรับบริการความงาม คัดสรรวัตถุดิบคุณภาพในราคาที่เหมาะสม
       สร้างความพึงพอใจให้กับลูกค้า และมุ่งมั่นพัฒนางานวิจัยอย่างต่อเนื่อง เรามีฟาร์มไหมขนาดเล็กเป็นของตัวเอง
       ดำเนินการมากว่า 30 ปี กระบวนการผลิตด้วยมือทุกขั้นตอน การสกัดโปรตีนไหม
@@ -112,74 +115,46 @@
       เราดูแลแหล่งเพาะเลี้ยงดักแด้เพื่อให้ความอบอุ่น และเพื่อให้มันเติบโตเป็นผีเสื้อตามวงจรชีวิตของแมลง</p>
   </section>
 
-<form
-  name="contact"
-  method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
-  class="mx-auto mt-5 max-w-xl"
->
-  <!-- ต้องมี hidden field นี้ -->
-  <input type="hidden" name="form-name" value="contact" />
-  <!-- honeypot กันบอท -->
-  <p class="hidden">
-    <label>อย่ากรอกช่องนี้ <input name="bot-field" /></label>
-  </p>
-
-  <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-    <div>
-      <label class="block text-sm font-semibold text-white">ชื่อ</label>
-      <input
-        type="text"
-        name="first-name"
-        required
-        class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-white"
-      />
+  <div class="isolate bg-gray-900 px-10 py-5" id="section5">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-sm font-medium p-2 md:text-base lg:text-2xl xl:text-4xl">ติดต่อเรา</h2>
     </div>
-    <div>
-      <label class="block text-sm font-semibold text-white">นามสกุล</label>
-      <input
-        type="text"
-        name="last-name"
-        class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-white"
-      />
-    </div>
-    <div class="sm:col-span-2">
-      <label class="block text-sm font-semibold text-white">อีเมล</label>
-      <input
-        type="email"
-        name="email"
-        required
-        class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-white"
-      />
-    </div>
-    <div class="sm:col-span-2">
-      <label class="block text-sm font-semibold text-white">ข้อความ</label>
-      <textarea
-        name="message"
-        rows="4"
-        required
-        class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-white"
-      ></textarea>
-    </div>
+    <form action="#" method="POST" class="mx-auto mt-5 max-w-xl ">
+      <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+        <div> <label for="first-name" class="block text-sm/6 font-semibold text-white">ชื่อ</label>
+          <div class="mt-2.5"> <input id="first-name" type="text" name="first-name" autocomplete="given-name"
+              class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+          </div>
+        </div>
+        <div> <label for="last-name" class="block text-sm/6 font-semibold text-white">นามสกุล</label>
+          <div class="mt-2.5"> <input id="last-name" type="text" name="last-name" autocomplete="family-name"
+              class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+          </div>
+        </div>
+        <div class="sm:col-span-2"> <label for="email" class="block text-sm/6 font-semibold text-white">อีเมล</label>
+          <div class="mt-2.5"> <input id="email" type="email" name="email" autocomplete="email"
+              class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+          </div>
+        </div>
+        <div class="sm:col-span-2"> <label for="message"
+            class="block text-sm/6 font-semibold text-white">ข้อความ</label>
+          <div class="mt-2.5"> <textarea id="message" name="message" rows="4"
+              class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="mt-2 py-5"> <button type="submit"
+          class="block w-full rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">ส่งข้อความ</button>
+      </div>
+    </form>
   </div>
 
-  <div class="mt-4 py-5">
-    <button
-      type="submit"
-      class="block w-full rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-indigo-400"
-    >
-      ส่งข้อความ
-    </button>
-  </div>
-</form>
+  <footer class="footer bg-gray-600 sm:footer-horizontal text-neutral-content justify-center items-center p-4">
+    <aside class="flex">
+      <p>Copyright © 2025 The Mauve - All right reserved</p>
+    </aside>
 
-<footer class="footer bg-white  sm:footer-horizontal text-neutral-content items-center p-4">
-  <aside class="grid-flow-col items-center text-black">
-    <p>Copyright © 2025 The Mauve - All right reserved</p>
-  </aside>
-  
-</footer>
+  </footer>
 
 
 </template>
