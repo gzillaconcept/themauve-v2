@@ -24,7 +24,7 @@
         </div>
         <div class="flex flex-1 gap-5 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex shrink-0 items-center font-bold">
-            <p>THE MOUVE</p>
+            <p>THE MAUVE</p>
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
